@@ -1,0 +1,75 @@
+﻿Popper mass: 0.0056 kg
+Popper height: 0.087 m
+
+
+Average: 1.123 m
+
+
+  
+
+Table 1: Maximum height
+the popper reached after
+release
+Trials
+	Height (m)
+	1
+	1.140
+	2
+	1.150
+	3
+	1.050
+	4
+	1.090
+	5
+	1.110
+	6
+	1.410
+	7
+	1.020
+	8
+	1.060
+	9
+	1.120
+	10
+	1.080
+	
+
+V = 4.690 m/s using root(2gh)
+GPE = mgh = 0.0616 J
+KE = 0.0616 J
+PEspring = 0.124 J
+        k = 276 N/m
+Total work used to compress the spring: 0.255 J
+
+GPE + KE + PEspring = Total work of compressed spring
+0.246 J ~ 0.255J, 3% difference 
+
+
+Force vs displacement graph (figure 1 for now)
+
+
+
+
+
+
+
+
+
+
+Table 2: points of the 
+Force v. Displacement graph 
+(Fig. 1)
+X (m)
+	Y (N)
+	0.00
+	0.071
+	0.01
+	2.94
+	0.02
+	5.70
+	0.03
+	8.57
+	0.04
+	6.18
+	0.05
+	4.24
