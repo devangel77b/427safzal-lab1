@@ -1,0 +1,276 @@
+﻿Table 1: Midpoints of each time interval
+and calculated speeds (m/s) for the feather
+across five trials, used to determine speed 
+constancy when air resistance is present (±0.05 m/s).
+Time (s)
+	Trial 1
+	Trial 2
+	Trial 3
+	Trial 4
+	Trial 5
+	0.125
+	0.396
+	0.388
+	0.292
+	0.390
+	0.404
+	0.375
+	0.344
+	0.280
+	0.333
+	0.330
+	0.351
+	0.625
+	0.150
+	0.154
+	0.104
+	0.112
+	0.223
+	0.875
+	0.544
+	0.533
+	0.474
+	0.465
+	0.354
+	1.125
+	0.216
+	0.163
+	0.115
+	0.211
+	0.102
+	1.375
+	0.320
+	0.302
+	0.260
+	0.314
+	0.214
+	1.625
+	0.444
+	0.432
+	0.355
+	0.396
+	0.334
+	1.875
+	0.042
+	0.048
+	0.041
+	0.046
+	0.044
+	2.125
+	0.028
+	0.023
+	0.026
+	0.021
+	0.024
+	2.375
+	0.040
+	0.036
+	0034
+	0.039
+	0.037
+	2.625
+	0.042
+	0.045
+	0038
+	0.042
+	0.040
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Table 2: Midpoints of each time interval
+and calculated speeds (m/s) for the penny
+across five trials, used to determine speed 
+constancy when air resistance is present (±0.05 m/s).
+Time (s)
+	Trial 1
+	Trial 2
+	Trial 3
+	Trial 4
+	Trial 5
+	0.125
+	213.6
+	213.6
+	214.2
+	213.4
+	213.7
+	0.375
+	186.4
+	186.5
+	186.1
+	186.0
+	186.4
+	0.625
+	0
+	0
+	0
+	0
+	0
+	0.875
+	0
+	0
+	0
+	0
+	0
+	1.125
+	0
+	0
+	0
+	0
+	0
+	1.375
+	0
+	0
+	0
+	0
+	0
+	1.625
+	0
+	0
+	0
+	0
+	0
+	1.875
+	0
+	0
+	0
+	0
+	0
+	2.125
+	0
+	0
+	0
+	0
+	0
+	2.375
+	0
+	0
+	0
+	0
+	0
+	2.625
+	0
+	0
+	0
+	0
+	0
+	
+
+Table 3: Midpoints of each time 
+interval and calculated speeds (m/s)
+used to determine constancy in the 
+absence of air resistance for the feather
+(±0.05 m/s).
+Time (s)
+	Trial 1
+	Trial 2
+	Trial 3
+	Trial 4
+	Trial 5
+	0.125
+	78.05
+	77.97
+	78.00
+	77.96
+	78.02
+	0.375
+	78.51
+	78.54
+	78.50
+	78.49
+	77.94
+	0.625
+	80.01
+	79.95
+	80.05
+	80.03
+	78.16
+	0.875
+	80.48
+	80.47
+	80.45
+	80.55
+	79.55
+	1.125
+	79.98
+	80.02
+	80.00
+	80.20
+	80.01
+	
+
+
+
+
+
+Table 4: Midpoints of each time 
+interval and calculated speeds (m/s)
+used to determine constancy in the 
+absence of air resistance for the penny
+(±0.05 m/s).
+Time (s)
+	Trial 1
+	Trial 2
+	Trial 3
+	Trial 4
+	Trial 5
+	0.125
+	80.04
+	79.98
+	80.06
+	80.03
+	80.01
+	0.375
+	81.09
+	81.16
+	81.13
+	81.07
+	81.12
+	0.625
+	81.15
+	81.10
+	81.08
+	81.12
+	81.12
+	0.875
+	80.00
+	80.05
+	80.03
+	80.06
+	80.02
+	1.125
+	80.13
+	80.07
+	80.14
+	80.05
+	80.10
