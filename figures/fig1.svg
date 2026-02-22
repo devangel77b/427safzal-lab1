@@ -53,6 +53,7 @@
 <polyline points='135.71,121.10 135.71,3.99 ' style='stroke-width: 0.78; stroke: #EBEBEB; stroke-linecap: butt;' />
 <polyline points='184.03,121.10 184.03,3.99 ' style='stroke-width: 0.78; stroke: #EBEBEB; stroke-linecap: butt;' />
 <polyline points='232.35,121.10 232.35,3.99 ' style='stroke-width: 0.78; stroke: #EBEBEB; stroke-linecap: butt;' />
+<line x1='29.40' y1='115.78' x2='242.02' y2='115.78' style='stroke-width: 0.78; stroke: #B3B3B3; stroke-linecap: butt;' />
 <circle cx='39.07' cy='9.31' r='1.42' style='stroke-width: 0.52; stroke: none; fill: #F8766D;' />
 <circle cx='63.23' cy='18.89' r='1.42' style='stroke-width: 0.52; stroke: none; fill: #F8766D;' />
 <circle cx='87.39' cy='28.47' r='1.42' style='stroke-width: 0.52; stroke: none; fill: #F8766D;' />
@@ -70,7 +71,7 @@
 <polygon points='208.19,113.57 210.11,116.88 206.28,116.88 ' style='stroke-width: 0.52; stroke: none; fill: #00BFC4;' />
 <polygon points='232.35,113.57 234.27,116.88 230.44,116.88 ' style='stroke-width: 0.52; stroke: none; fill: #00BFC4;' />
 <line x1='-16.99' y1='-113.13' x2='142.47' y2='238.22' style='stroke-width: 0.78; stroke: #00FFFF; stroke-linecap: butt;' />
-<line x1='-157.87' y1='-113.13' x2='443.87' y2='238.22' style='stroke-width: 0.78; stroke: #FFC0CB; stroke-linecap: butt;' />
+<line x1='-157.87' y1='-113.13' x2='443.87' y2='238.22' style='stroke-width: 0.78; stroke: #FF00FF; stroke-linecap: butt;' />
 <rect x='29.40' y='3.99' width='212.62' height='117.12' style='stroke-width: 0.78; stroke: #333333;' />
 </g>
 <g clip-path='url(#cpMC4wMHwyNDYuMDB8MC4wMHwxNDQuMDA=)'>

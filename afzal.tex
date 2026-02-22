@@ -13,6 +13,7 @@
 \crefname{figure}{Fig.}{Figs.}
 \crefname{table}{Table}{Tables}
 \usepackage{svg}
+\svgpath{{./figures}}
 
 % set PDF metadata
 \hypersetup{%
@@ -112,11 +113,17 @@ digitization noise; this choice significantly reduced the temporal resolution of
 
 \section{Results}
 \begin{figure}
+\begin{center}
+\includesvg{fig1.svg}
+\end{center}
 \caption{Position versus time with air resistance present. A least-squares regression line for both objects was created, finding that the $R^2$ values of the feather and the penny were 0.881 and 0.546 respectively. Linear fits are shown for qualitative comparison only and don't imply velocity.}
 \label{fig:1}
 \end{figure}
 
 \begin{figure}
+\begin{center}
+\includesvg{fig2.svg}
+\end{center}
 \caption{Position versus time with air resistance absent. A least-squares regression line for both objects was created, finding that the $R^2$ values of the feather and the penny were 0.963 and 0.982 respectively. Linear fits are shown for qualitative comparison only and don't imply velocity.}
 \label{fig:2}
 \end{figure}
