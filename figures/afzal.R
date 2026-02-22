@@ -4,7 +4,7 @@ library(dplyr)
 raw <- read.csv('fig1.csv',header=TRUE)
 data <- tibble(raw)
 fig1 <- ggplot(data)+
-     geom_point(aes(x=t_s,y=y_m,color=type))+
+     geom_point(aes(x=t_s,y=y_m,color=type,shape=type))+
      geom_abline(intercept=0.99,slope=-2,color='cyan')+
      geom_abline(intercept=1.07,slope=-0.53,color='pink')+
      xlab('$t$, \\unit{\\second}')+
@@ -33,8 +33,9 @@ print(summary(modelf))
 raw2 <- read.csv('fig2.csv',header=TRUE)
 data2 <- tibble(raw2)
 fig2 <- ggplot(data2)+
-     geom_point(aes(x=t_s,y=y_m,color=type))+
-     geom_abline(intercept=1.007,slope=-0.808,color='black')+
+     geom_point(aes(x=t_s,y=y_m,shape=type))+
+     geom_abline(intercept=1.007,slope=-0.808,color='blue')+
+     xlim(0,2.0)+
      xlab('$t$, \\unit{\\second}')+
      ylab('$y$, \\unit{\\meter}')+
      theme_bw(base_size=8)+
