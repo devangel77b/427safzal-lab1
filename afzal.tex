@@ -57,7 +57,7 @@ This experiment aims to investigate the influence of air resistance on falling o
 
 
 \section{Introduction}
-This experiment investigates how air resistance affects the vertical motion of a feather and a penny in a controlled tube under two conditions: with air present and with air partially removed. The motion was observed under two different conditions: We used a tube that contained air, and then the same tube, except with the air removed through a vacuum. In an idealized system without air resistance, all objects near Earth’s surface accelerate at the same rate due to gravity. However, in everyday conditions, the presence of air resistance acts against the acceleration due to gravity (\qty{9.8}{\meter\per\second\squared}) and reduces the net acceleration of lighter objects, particularly the feather \cite{tipler}. By observing the feather and penny in conditions with and without air, our experiment demonstrates the influence of air resistance on objects in free fall. It provides evidence of their effects on each object’s speed. We hypothesized that if objects fall in an environment with air resistance, then they will not experience constant acceleration, and may approach terminal velocity due to the opposing force of air resistance slowing down the net acceleration. However, if objects fall in an environment without air resistance, then they will accelerate uniformly due to gravity, resulting in similar accelerations due to gravity.
+This experiment investigates how air resistance affects the vertical motion of a feather and a penny in a controlled tube under two conditions: with air present and with air partially removed. The motion was observed under two different conditions: We used a tube that contained air, and then the same tube, except with the air removed through a vacuum. In an idealized system without air resistance, all objects near Earth’s surface accelerate at the same rate due to gravity. However, in everyday conditions, the presence of air resistance acts against the acceleration due to gravity (\qty{9.8}{\meter\per\second\squared}) and reduces the net acceleration of lighter objects, particularly the feather \cite{tipler,openstax,barrons}. By observing the feather and penny in conditions with and without air, our experiment demonstrates the influence of air resistance on objects in free fall. It provides evidence of their effects on each object’s speed. We hypothesized that if objects fall in an environment with air resistance, then they will not experience constant acceleration, and may approach terminal velocity due to the opposing force of air resistance slowing down the net acceleration. However, if objects fall in an environment without air resistance, then they will accelerate uniformly due to gravity, resulting in similar accelerations due to gravity.
 
 
 
@@ -106,7 +106,7 @@ an $R^2$ value, the percentage of data accounted for by the LSRL, were also obta
 video was recorded at \qty{240}{frame\per\second}, position data were sampled at \qty{0.25}{\second} intervals to reduce
 digitization noise; this choice significantly reduced the temporal resolution of the measurements.
 
-
+Statistical analyses \cite{starnes:2015:practice} were conducted in R \cite{R} using the \texttt{dplyr} and \texttt{ggplot2} libraries \cite{dplyr,ggplot2}. 
 
 
 
@@ -163,7 +163,7 @@ acceleration where drag forced a significant reduction in further acceleration, 
 amount of air resistance was outweighing the feather itself. On the contrary, the penny had fallen
 much quicker. The amount of air resistance that the object is affected by can be determined by
 two things: the speed of the object and the cross-sectional area of the object, or the relative
-magnitude of drag forces compared to gravitational force \cite{cioci-2022-galileo}. This is exemplified through
+magnitude of drag forces compared to gravitational force \cite{cioci:2022:galileo}. This is exemplified through
 the feather, as it is tiny, weighs much less than a penny, and has soft, ridge-like corners that catch even more air, allowing for more air resistance. The penny, which is made of copper, making it
 more dense and heavier, does not allow for much air resistance, allowing it to fall and hit the
 ground almost immediately. The changing velocity is shown once again in \cref{tab:1}, where it is
