@@ -6,7 +6,7 @@
 \usepackage{bm}
 \usepackage{siunitx}
 %\usepackage{tikz,pgfplots}
-\sisetup{separate-uncertainty=true}
+\sisetup{separate-uncertainty=true,multi-part-units=single}
 \usepackage[colorlinks,allcolors=blue]{hyperref}
 \usepackage{cleveref}
 \crefname{equation}{}{}
@@ -23,19 +23,19 @@ pdfauthor={Sarah Afzal, Shreena Desai, and Ansh Modani},
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[RE,RO]{J S\&E \textbf{2}, 50--52 (2026)}
+\fancyhead[RE,RO]{J S\&E \textbf{2}, 57--60 (2026)}
 \fancyhead[LO]{Afzal \emph{et al}}
 \fancyhead[LE]{How air resistance influences a penny and a feather}
 \fancyfoot[C]{\thepage}
 \fancypagestyle{mytitlepage}{
 \fancyhf{}
-\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, 50--52 (2026)}
+\fancyhead[C]{Journal of Science \& Engineering \textbf{2}, 57--60 (2026)}
 \fancyfoot[C]{\thepage}
 }
 
 
 \begin{document}
-\setcounter{page}{50}
+\setcounter{page}{57}
 
 \title{Investigating how air resistance influences the motion of a penny and a feather}
 \author{Sarah Afzal}
@@ -64,49 +64,17 @@ This experiment investigates how air resistance affects the vertical motion of a
 
 
 \section{Methods and materials}
-We conducted this experiment using a meter stick, a few pieces of tape, a feather
-weighing \qty{0.025}{\gram}, a penny weighing \qty{0.050}{\gram}, a transparent acrylic tube (inner diameter
-\qty{8.00}{\centi\meter}), connected to a laboratory vacuum pump via a valve system to reduce air density inside
-the tube. We had previously decided that we were going to film our experiment in order to
-capture our data accordingly, which was done on an iPhone 14 at \qty{240}{frame\per\second}.
-The camera was mounted stationary and perpendicular to the tube to minimize perspective
-distortion. The high fps ensured that the objects in fall would be captured throughout, reducing
-human reaction error and allowing us to collect more accurate position data. To minimize other
-data collection errors from the video and because the tube had to be flipped, causing
-unsteadiness, we taped our meter stick to the tube. This allowed us not to have to limit our range
-of motion and could flip the tube easily, all while still being able to capture a measurement of
-position for each of the objects in the video. To obtain the positions of each object in the
-presence of air resistance, the tube was screwed tight, containing both the penny and the feather,
-and an open valve that allowed air inside of it. Before we started to film, the tube had already
-been flipped upside down, and we filmed and used the data of it being flipped right side up for a
-total of five trials in order to average out the positions captured with the aim to minimize
-confounding variables that one trial may have. To create the air-resistance-free environment, we
-connected the vacuum to the tube with a pipe and waited for the air to be sucked out, which took
-around ten minutes, and then we shut the valve. We had actually performed a test trial for this
-and found that air was slowly seeping its way back into the tube, so we had to keep the tube
-connected and the valve closed to ensure no air would come inside. A similar methodology was
-used when actually collecting the data for the air-resistance free environment, where we also
-collected data for a total of five trials. We then timestamped the videos and created tables
-(separate) of the position of the penny and feather every \qty{0.25}{\second} for each trial of each
-object, then averaged the results of all the trials. Finally, we created two graphs: one graph
-representing the position vs time of a penny and a penny with air resistance present and one
-graph representing the same with the same objects without air resistance present. To confirm our
-hypothesis, average velocity was calculated using the finite difference equation:
+We conducted this experiment using a meter stick, a few pieces of tape, a feather weighing \qty{0.025}{\gram}, a penny weighing \qty{0.050}{\gram}, a transparent acrylic tube (inner diameter \qty{8.00}{\centi\meter}), connected to a laboratory vacuum pump via a valve system to reduce air density inside the tube. We had previously decided that we were going to film our experiment in order to capture our data accordingly, which was done on an iPhone 14 at \qty{240}{frame\per\second}. The camera was mounted stationary and perpendicular to the tube to minimize perspective distortion. The high fps ensured that the objects in fall would be captured throughout, reducing human reaction error and allowing us to collect more accurate position data. To minimize other data collection errors from the video and because the tube had to be flipped, causing unsteadiness, we taped our meter stick to the tube. This allowed us not to have to limit our range of motion and could flip the tube easily, all while still being able to capture a measurement of position for each of the objects in the video. To obtain the positions of each object in the presence of air resistance, the tube was screwed tight, containing both the penny and the feather, and an open valve that allowed air inside of it. Before we started to film, the tube had already been flipped upside down, and we filmed and used the data of it being flipped right side up for a total of five trials in order to average out the positions captured with the aim to minimize confounding variables that one trial may have. To create the air-resistance-free environment, we connected the vacuum to the tube with a pipe and waited for the air to be sucked out, which took around ten minutes, and then we shut the valve. We had actually performed a test trial for this and found that air was slowly seeping its way back into the tube, so we had to keep the tube connected and the valve closed to ensure no air would come inside. A similar methodology was used when actually collecting the data for the air-resistance free environment, where we also collected data for a total of five trials. We then timestamped the videos and created tables (separate) of the position of the penny and feather every \qty{0.25}{\second} for each trial of each object, then averaged the results of all the trials. Finally, we created two graphs: one graph representing the position vs time of a penny and a penny with air resistance present and one graph representing the same with the same objects without air resistance present. To confirm our hypothesis, average velocity was calculated using the finite difference equation:
 \begin{equation}
 V_{avg} = \left| \frac{\Delta y}{\Delta t} \right| 
 \end{equation}
-To associate each average velocity with a time value, a midpoint time was calculated by finding
-the midpoint between two times, or by using the following equation:
+To associate each average velocity with a time value, a midpoint time was calculated by finding the midpoint between two times, or by using the following equation:
 \begin{equation}
 t_{midpoint} = \dfrac{t_{next} - t_{current}}{2}
 \end{equation}
-The speeds and times were then put in a table to determine whether the velocity changed over
-time, which would support or refute our hypothesis. A least squares regression line (LSRL) and
-an $R^2$ value, the percentage of data accounted for by the LSRL, were also obtained. Although the
-video was recorded at \qty{240}{frame\per\second}, position data were sampled at \qty{0.25}{\second} intervals to reduce
-digitization noise; this choice significantly reduced the temporal resolution of the measurements.
+The speeds and times were then put in a table to determine whether the velocity changed over time, which would support or refute our hypothesis. A least squares regression line (LSRL) and an $R^2$ value, the percentage of data accounted for by the LSRL, were also obtained. Although the video was recorded at \qty{240}{frame\per\second}, position data were sampled at \qty{0.25}{\second} intervals to reduce digitization noise; this choice significantly reduced the temporal resolution of the measurements.
 
-Statistical analyses \cite{starnes:2015:practice} were conducted in R \cite{R} using the \texttt{dplyr} and \texttt{ggplot2} libraries \cite{dplyr,ggplot2}. 
+Statistical analyses \cite{starnes:2015:practice} were conducted in R \cite{R} using the \texttt{dplyr} and \texttt{ggplot2} libraries \cite{dplyr,ggplot2}. Data and code are available at \url{https://github.com/devangel77b/427safzal-lab1}.
 
 
 
@@ -152,48 +120,13 @@ The text needs to refer to \cref{fig:1} and \cref{tab:1,tab:2,tab:3,tab:4}.
 
 
 \section{Discussion}
-Average velocities were computed over fixed intervals; this does not imply constant
-velocity or that terminal velocity was reached. Objects falling in air may reach a constant
-velocity after sufficient time due to terminal velocity; the finite tube length likely limited the
-extent to which full terminal velocity was reached in this experiment. Not only that, but they
-exhibited similar accelerations, both hitting the ground at roughly the same time. \Cref{fig:1} displays
-the position of the feather and the penny in relation to time, both color-coded. The feather
-initially accelerated and then approached a regime where drag significantly reduced further
-acceleration where drag forced a significant reduction in further acceleration, signalling that the
-amount of air resistance was outweighing the feather itself. On the contrary, the penny had fallen
-much quicker. The amount of air resistance that the object is affected by can be determined by
-two things: the speed of the object and the cross-sectional area of the object, or the relative
-magnitude of drag forces compared to gravitational force \cite{cioci:2022:galileo}. This is exemplified through
-the feather, as it is tiny, weighs much less than a penny, and has soft, ridge-like corners that catch even more air, allowing for more air resistance. The penny, which is made of copper, making it
-more dense and heavier, does not allow for much air resistance, allowing it to fall and hit the
-ground almost immediately. The changing velocity is shown once again in \cref{tab:1}, where it is
-suggested that the speeds of the feather and the penny are not the same or even similar. It is,
-however, surprising how high the R-squared value of the feather in \cref{fig:1} is, especially since the
-speeds are nowhere near being the same. Either way, a linear position-time relationship would
-indicate constant velocity; however, accelerating motion is expected prior to reaching terminal
-velocity, neither did the table of speeds show that it is constant in environments involving air
-resistance.
+Average velocities were computed over fixed intervals; this does not imply constant velocity or that terminal velocity was reached. Objects falling in air may reach a constant velocity after sufficient time due to terminal velocity; the finite tube length likely limited the extent to which full terminal velocity was reached in this experiment. Not only that, but they exhibited similar accelerations, both hitting the ground at roughly the same time. \Cref{fig:1} displays the position of the feather and the penny in relation to time, both color-coded. The feather initially accelerated and then approached a regime where drag significantly reduced further acceleration where drag forced a significant reduction in further acceleration, signalling that the amount of air resistance was outweighing the feather itself. On the contrary, the penny had fallen much quicker. The amount of air resistance that the object is affected by can be determined by two things: the speed of the object and the cross-sectional area of the object, or the relative magnitude of drag forces compared to gravitational force \cite{cioci:2022:galileo}. This is exemplified through the feather, as it is tiny, weighs much less than a penny, and has soft, ridge-like corners that catch even more air, allowing for more air resistance. The penny, which is made of copper, making it more dense and heavier, does not allow for much air resistance, allowing it to fall and hit the ground almost immediately. The changing velocity is shown once again in \cref{tab:1}, where it is suggested that the speeds of the feather and the penny are not the same or even similar. It is, however, surprising how high the R-squared value of the feather in \cref{fig:1} is, especially since the speeds are nowhere near being the same. Either way, a linear position-time relationship would indicate constant velocity; however, accelerating motion is expected prior to reaching terminal velocity, neither did the table of speeds show that it is constant in environments involving air resistance.
 
-In \cref{fig:2}, the plot of the feather and the penny is not only linear to the eye, but also very
-close to each other in proximity, representing similar position-time behavior consistent with
-constant acceleration and the same rate within each object. Supporting its linearity, the R-squared
-values of both the feather and the penny are 0.963 and 0.982, respectively, showing great
-accountability by the LSRL for all values in the data set. As seen in \cref{tab:2}, the speeds of both objects, after being calculated, are in fact similar, and it would be reasonable to conclude that both objects experienced similar accelerations due to gravity just as should happen in an
-air-resistance-free environment.
+In \cref{fig:2}, the plot of the feather and the penny is not only linear to the eye, but also very close to each other in proximity, representing similar position-time behavior consistent with constant acceleration and the same rate within each object. Supporting its linearity, the R-squared values of both the feather and the penny are 0.963 and 0.982, respectively, showing great accountability by the LSRL for all values in the data set. As seen in \cref{tab:2}, the speeds of both objects, after being calculated, are in fact similar, and it would be reasonable to conclude that both objects experienced similar accelerations due to gravity just as should happen in an air-resistance-free environment.
 
-Several possible sources of systemic error may have contributed to vouching for or
-straying away from a constant speed in an air-resistance-free environment by around 5\%-10\%.
-For example, the diameter of our tube was quite small, possibly conflicting with the actual
-position of each object as they collided into the wall and each other. This is especially the case
-for the feather and may account for its high R-squared value as given in \cref{fig:1}. As the feather hits
-the sides of the tube, it may seem like it is falling more slowly when it really should not. If the
-penny had interacted with the feather at all, it could have pushed it down with it, causing the rate
-to be the same for both objects in the air-resistance-free environment when it may not have been.
+Several possible sources of systemic error may have contributed to vouching for or straying away from a constant speed in an air-resistance-free environment by around 5\%-10\%. For example, the diameter of our tube was quite small, possibly conflicting with the actual position of each object as they collided into the wall and each other. This is especially the case for the feather and may account for its high R-squared value as given in \cref{fig:1}. As the feather hits the sides of the tube, it may seem like it is falling more slowly when it really should not. If the penny had interacted with the feather at all, it could have pushed it down with it, causing the rate to be the same for both objects in the air-resistance-free environment when it may not have been.
 
-Possible systematic errors include friction between the objects and the tube walls,
-interaction between the feather and penny, and uncertainties introduced during the tube
-inversion. These effects may influence the measured motion and limit generalization beyond this
-setup.
+Possible systematic errors include friction between the objects and the tube walls, interaction between the feather and penny, and uncertainties introduced during the tube inversion. These effects may influence the measured motion and limit generalization beyond this setup.
 
 
 
